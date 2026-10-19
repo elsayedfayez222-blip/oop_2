@@ -65,7 +65,7 @@ namespace Assignment
             #endregion
 
             #region Q6
-            // Declare a double price = 49.99; then convert it into an int using a cast.
+            // Declare a double price = 49.99; then convert it into an int using  cast.
 
             double price = 49.99;
             int intPrice = (int)price; // explicit casting
