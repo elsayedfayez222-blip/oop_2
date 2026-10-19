@@ -7,6 +7,7 @@ namespace Assignment
     {
         public string Title { get; set; }
         public int Pages { get; set; }
+
     }
     
     internal class Program
@@ -14,7 +15,7 @@ namespace Assignment
         static void Main(string[] args)
         {
             #region Q1
-            // Create a Book class with a Title (string) and Pages (int). Create a Book object and store it in a variable of type object. Print it.
+            // Create a Book class with a Title (string) and Pages int   Create a Book object and store it in a variable of type object. Print it.
 
             Book myBook = new Book { Title = "C# Guide", Pages = 300 };
             object objBook = myBook; // store book object in object variable
@@ -34,7 +35,7 @@ namespace Assignment
             // Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
             // int pages = "464";
 
-            // Answer: Compile-time error you can't put text (string) into an int variable.
+            // Answer: Compile-time error you can't put text (string) into an int variable
             int pages = 464; // correct declaration
             #endregion
 
